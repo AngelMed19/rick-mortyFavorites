@@ -1,96 +1,25 @@
 {
-  "tests": [
+  "cursos": [
     {
       "id": 1,
-      "title": "Test de Ciencia",
-      "quizzes": [
+      "title": "Psicología Básica",
+      "description": "Introducción a los conceptos fundamentales de la psicología.",
+      "category": "Psicología",
+      "level": "Básico",
+      "tests": [
         {
-          "title": "Quiz de Ciencia #1",
-          "videoUrl": "https://www.youtube.com/watch?v=JfC1c5U4B4M",
+          "id": 1,
+          "title": "Test de Psicología Básica",
           "questions": [
             {
-              "text": "¿Cuál es el planeta más cercano al sol?",
-              "options": ["Mercurio", "Venus", "Tierra", "Marte"],
-              "correct": "Mercurio",
-              "videoUrl": "https://www.youtube.com/watch?v=JfC1c5U4B4M"
+              "question": "¿Qué es la psicología?",
+              "options": ["Estudio de la mente", "Estudio de los animales", "Estudio de la química"],
+              "answer": 0
             },
             {
-              "text": "¿Cuál es el elemento químico más abundante en el universo?",
-              "options": ["Hidrógeno", "Helio", "Oxígeno", "Carbono"],
-              "correct": "Hidrógeno",
-              "videoUrl": "https://www.youtube.com/watch?v=JfC1c5U4B4M"
-            },
-            {
-              "text": "¿Qué proceso convierte el líquido en gas?",
-              "options": ["Condensación", "Evaporación", "Sublimación", "Fusión"],
-              "correct": "Evaporación",
-              "videoUrl": "https://www.youtube.com/watch?v=JfC1c5U4B4M"
-            },
-            {
-              "text": "¿Qué es un átomo?",
-              "options": ["La unidad más pequeña de la materia", "Un tipo de molécula", "Un tipo de energía", "Un elemento químico"],
-              "correct": "La unidad más pequeña de la materia",
-              "videoUrl": "https://www.youtube.com/watch?v=JfC1c5U4B4M"
-            }
-          ]
-        },
-        {
-          "title": "Quiz de Ciencia #2",
-          "videoUrl": "https://www.youtube.com/watch?v=JfC1c5U4B4M",
-          "questions": [
-            {
-              "text": "¿Qué parte de la planta realiza la fotosíntesis?",
-              "options": ["Raíz", "Tallo", "Hoja", "Flor"],
-              "correct": "Hoja",
-              "videoUrl": "https://www.youtube.com/watch?v=JfC1c5U4B4M"
-            },
-            {
-              "text": "¿Qué tipo de animal es un delfín?",
-              "options": ["Mamífero", "Reptil", "Pájaro", "Anfibio"],
-              "correct": "Mamífero",
-              "videoUrl": "https://www.youtube.com/watch?v=JfC1c5U4B4M"
-            },
-            {
-              "text": "¿Cuál es la función del corazón?",
-              "options": ["Bombear sangre", "Respirar", "Digestión", "Regular la temperatura"],
-              "correct": "Bombear sangre",
-              "videoUrl": "https://www.youtube.com/watch?v=JfC1c5U4B4M"
-            },
-            {
-              "text": "¿Qué gas es necesario para la respiración?",
-              "options": ["Dióxido de carbono", "Oxígeno", "Nitrógeno", "Helio"],
-              "correct": "Oxígeno",
-              "videoUrl": "https://www.youtube.com/watch?v=JfC1c5U4B4M"
-            }
-          ]
-        },
-        {
-          "title": "Quiz de Ciencia #3",
-          "videoUrl": "https://www.youtube.com/watch?v=JfC1c5U4B4M",
-          "questions": [
-            {
-              "text": "¿Qué tipo de energía es la luz?",
-              "options": ["Química", "Térmica", "Eléctrica", "Radiante"],
-              "correct": "Radiante",
-              "videoUrl": "https://www.youtube.com/watch?v=JfC1c5U4B4M"
-            },
-            {
-              "text": "¿Qué es la gravedad?",
-              "options": ["Una fuerza que atrae objetos hacia el centro de la Tierra", "Un tipo de energía", "La velocidad de un objeto", "La masa de un objeto"],
-              "correct": "Una fuerza que atrae objetos hacia el centro de la Tierra",
-              "videoUrl": "https://www.youtube.com/watch?v=JfC1c5U4B4M"
-            },
-            {
-              "text": "¿Qué es el ciclo del agua?",
-              "options": ["La evaporación y condensación del agua", "La formación de ríos", "La contaminación del agua", "La limpieza del agua"],
-              "correct": "La evaporación y condensación del agua",
-              "videoUrl": "https://www.youtube.com/watch?v=JfC1c5U4B4M"
-            },
-            {
-              "text": "¿Cuál es el estado del agua en forma de vapor?",
-              "options": ["Sólido", "Líquido", "Gaseoso", "Plasma"],
-              "correct": "Gaseoso",
-              "videoUrl": "https://www.youtube.com/watch?v=JfC1c5U4B4M"
+              "question": "¿Quién es considerado el padre de la psicología moderna?",
+              "options": ["Sigmund Freud", "Carl Jung", "B.F. Skinner"],
+              "answer": 0
             }
           ]
         }
@@ -98,95 +27,24 @@
     },
     {
       "id": 2,
-      "title": "Test de Historia",
-      "quizzes": [
+      "title": "Psicología Intermedia",
+      "description": "Exploración de teorías psicológicas y su aplicación práctica.",
+      "category": "Psicología",
+      "level": "Intermedio",
+      "tests": [
         {
-          "title": "Quiz de Historia #1",
-          "videoUrl": "https://www.youtube.com/watch?v=jITmvVYkK1Q",
+          "id": 2,
+          "title": "Test de Psicología Intermedia",
           "questions": [
             {
-              "text": "¿Quién fue el primer presidente de los Estados Unidos?",
-              "options": ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "John Adams"],
-              "correct": "George Washington",
-              "videoUrl": "https://www.youtube.com/watch?v=jITmvVYkK1Q"
+              "question": "¿Qué teoría propone la existencia de un inconsciente?",
+              "options": ["Conductismo", "Psicoanálisis", "Cognitivismo"],
+              "answer": 1
             },
             {
-              "text": "¿En qué año comenzó la Segunda Guerra Mundial?",
-              "options": ["1939", "1941", "1945", "1914"],
-              "correct": "1939",
-              "videoUrl": "https://www.youtube.com/watch?v=jITmvVYkK1Q"
-            },
-            {
-              "text": "¿Cuál fue el imperio más grande de la historia?",
-              "options": ["Imperio Británico", "Imperio Mongol", "Imperio Romano", "Imperio Español"],
-              "correct": "Imperio Británico",
-              "videoUrl": "https://www.youtube.com/watch?v=jITmvVYkK1Q"
-            },
-            {
-              "text": "¿Qué civilización construyó las pirámides de Giza?",
-              "options": ["Los mayas", "Los romanos", "Los egipcios", "Los aztecas"],
-              "correct": "Los egipcios",
-              "videoUrl": "https://www.youtube.com/watch?v=jITmvVYkK1Q"
-            }
-          ]
-        },
-        {
-          "title": "Quiz de Historia #2",
-          "videoUrl": "https://www.youtube.com/watch?v=jITmvVYkK1Q",
-          "questions": [
-            {
-              "text": "¿Quién descubrió América?",
-              "options": ["Cristóbal Colón", "Fernando de Magallanes", "Hernán Cortés", "Francisco Pizarro"],
-              "correct": "Cristóbal Colón",
-              "videoUrl": "https://www.youtube.com/watch?v=jITmvVYkK1Q"
-            },
-            {
-              "text": "¿Cuál fue la causa de la Revolución Francesa?",
-              "options": ["Desigualdad social", "Revolución Industrial", "Expansionismo", "Colonialismo"],
-              "correct": "Desigualdad social",
-              "videoUrl": "https://www.youtube.com/watch?v=jITmvVYkK1Q"
-            },
-            {
-              "text": "¿Qué evento marcó el inicio de la Edad Media?",
-              "options": ["Caída del Imperio Romano", "Invención de la imprenta", "Descubrimiento de América", "Revolución Industrial"],
-              "correct": "Caída del Imperio Romano",
-              "videoUrl": "https://www.youtube.com/watch?v=jITmvVYkK1Q"
-            },
-            {
-              "text": "¿Quién fue el dictador de Alemania durante la Segunda Guerra Mundial?",
-              "options": ["Adolf Hitler", "Joseph Stalin", "Winston Churchill", "Franklin D. Roosevelt"],
-              "correct": "Adolf Hitler",
-              "videoUrl": "https://www.youtube.com/watch?v=jITmvVYkK1Q"
-            }
-          ]
-        },
-        {
-          "title": "Quiz de Historia #3",
-          "videoUrl": "https://www.youtube.com/watch?v=jITmvVYkK1Q",
-          "questions": [
-            {
-              "text": "¿Qué documento fue firmado en 1776 en Estados Unidos?",
-              "options": ["La Declaración de Independencia", "La Constitución", "El Tratado de París", "El Acta de Derechos"],
-              "correct": "La Declaración de Independencia",
-              "videoUrl": "https://www.youtube.com/watch?v=jITmvVYkK1Q"
-            },
-            {
-              "text": "¿En qué año cayó el Muro de Berlín?",
-              "options": ["1989", "1991", "1985", "1990"],
-              "correct": "1989",
-              "videoUrl": "https://www.youtube.com/watch?v=jITmvVYkK1Q"
-            },
-            {
-              "text": "¿Quién fue la primera mujer en volar en el espacio?",
-              "options": ["Valentina Tereshkova", "Sally Ride", "Mae Jemison", "Eileen Collins"],
-              "correct": "Valentina Tereshkova",
-              "videoUrl": "https://www.youtube.com/watch?v=jITmvVYkK1Q"
-            },
-            {
-              "text": "¿Qué país fue el primero en abolir la esclavitud?",
-              "options": ["Reino Unido", "Estados Unidos", "Francia", "Suecia"],
-              "correct": "Reino Unido",
-              "videoUrl": "https://www.youtube.com/watch?v=jITmvVYkK1Q"
+              "question": "¿Qué se estudia en la psicología del desarrollo?",
+              "options": ["Comportamiento de animales", "Cambio a lo largo de la vida", "Estructura de la mente"],
+              "answer": 1
             }
           ]
         }
@@ -194,95 +52,24 @@
     },
     {
       "id": 3,
-      "title": "Test de Geografía",
-      "quizzes": [
+      "title": "Psicología Avanzada",
+      "description": "Análisis de estudios avanzados en psicología cognitiva.",
+      "category": "Psicología",
+      "level": "Avanzado",
+      "tests": [
         {
-          "title": "Quiz de Geografía #1",
-          "videoUrl": "https://www.youtube.com/watch?v=USiW2h1xOsE",
+          "id": 3,
+          "title": "Test de Psicología Avanzada",
           "questions": [
             {
-              "text": "¿Cuál es el río más largo del mundo?",
-              "options": ["Amazonas", "Nilo", "Yangtsé", "Misisipi"],
-              "correct": "Amazonas",
-              "videoUrl": "https://www.youtube.com/watch?v=USiW2h1xOsE"
+              "question": "¿Qué es la cognición?",
+              "options": ["Proceso de adquirir conocimiento", "Reacción ante estímulos", "Condicionamiento"],
+              "answer": 0
             },
             {
-              "text": "¿Cuál es la capital de Francia?",
-              "options": ["Londres", "Berlín", "Madrid", "París"],
-              "correct": "París",
-              "videoUrl": "https://www.youtube.com/watch?v=USiW2h1xOsE"
-            },
-            {
-              "text": "¿En qué continente se encuentra Egipto?",
-              "options": ["Asia", "África", "Europa", "América"],
-              "correct": "África",
-              "videoUrl": "https://www.youtube.com/watch?v=USiW2h1xOsE"
-            },
-            {
-              "text": "¿Cuál es el desierto más grande del mundo?",
-              "options": ["Sahara", "Gobi", "Kalahari", "Atacama"],
-              "correct": "Sahara",
-              "videoUrl": "https://www.youtube.com/watch?v=USiW2h1xOsE"
-            }
-          ]
-        },
-        {
-          "title": "Quiz de Geografía #2",
-          "videoUrl": "https://www.youtube.com/watch?v=USiW2h1xOsE",
-          "questions": [
-            {
-              "text": "¿Cuál es la montaña más alta del mundo?",
-              "options": ["K2", "Kangchenjunga", "Everest", "Makalu"],
-              "correct": "Everest",
-              "videoUrl": "https://www.youtube.com/watch?v=USiW2h1xOsE"
-            },
-            {
-              "text": "¿Qué océano es el más grande del mundo?",
-              "options": ["Atlántico", "Índico", "Pacífico", "Ártico"],
-              "correct": "Pacífico",
-              "videoUrl": "https://www.youtube.com/watch?v=USiW2h1xOsE"
-            },
-            {
-              "text": "¿Cuál es la capital de Japón?",
-              "options": ["Pekín", "Seúl", "Tokio", "Bangkok"],
-              "correct": "Tokio",
-              "videoUrl": "https://www.youtube.com/watch?v=USiW2h1xOsE"
-            },
-            {
-              "text": "¿En qué país se encuentra la Gran Muralla?",
-              "options": ["Japón", "Corea del Sur", "China", "Vietnam"],
-              "correct": "China",
-              "videoUrl": "https://www.youtube.com/watch?v=USiW2h1xOsE"
-            }
-          ]
-        },
-        {
-          "title": "Quiz de Geografía #3",
-          "videoUrl": "https://www.youtube.com/watch?v=USiW2h1xOsE",
-          "questions": [
-            {
-              "text": "¿Qué país tiene forma de bota?",
-              "options": ["Francia", "Italia", "España", "Grecia"],
-              "correct": "Italia",
-              "videoUrl": "https://www.youtube.com/watch?v=USiW2h1xOsE"
-            },
-            {
-              "text": "¿Cuál es el país más pequeño del mundo?",
-              "options": ["Mónaco", "Vaticano", "Nauru", "San Marino"],
-              "correct": "Vaticano",
-              "videoUrl": "https://www.youtube.com/watch?v=USiW2h1xOsE"
-            },
-            {
-              "text": "¿Qué continente es conocido como el 'continente negro'?",
-              "options": ["Asia", "África", "América", "Oceanía"],
-              "correct": "África",
-              "videoUrl": "https://www.youtube.com/watch?v=USiW2h1xOsE"
-            },
-            {
-              "text": "¿Cuál es la capital de Argentina?",
-              "options": ["Lima", "Buenos Aires", "Santiago", "Bogotá"],
-              "correct": "Buenos Aires",
-              "videoUrl": "https://www.youtube.com/watch?v=USiW2h1xOsE"
+              "question": "¿Qué estudia la neuropsicología?",
+              "options": ["Comportamientos sociales", "Relación entre el cerebro y el comportamiento", "Desarrollo infantil"],
+              "answer": 1
             }
           ]
         }
@@ -290,94 +77,503 @@
     },
     {
       "id": 4,
-      "title": "Test de Cultura General",
-      "quizzes": [
+      "title": "Programación para Principiantes",
+      "description": "Aprende los fundamentos de la programación con Python.",
+      "category": "Programación",
+      "level": "Básico",
+      "tests": [
         {
-          "title": "Quiz de Cultura General #1",
+          "id": 4,
+          "title": "Test de Programación para Principiantes",
           "questions": [
             {
-              "text": "¿Quién escribió 'Cien años de soledad'?",
-              "options": ["Gabriel García Márquez", "Julio Cortázar", "Mario Vargas Llosa", "Isabel Allende"],
-              "correct": "Gabriel García Márquez",
-              "videoUrl": "https://www.youtube.com/watch?v=pRz4u1ZpB44"
+              "question": "¿Qué es Python?",
+              "options": ["Un lenguaje de programación", "Una base de datos", "Un sistema operativo"],
+              "answer": 0
             },
             {
-              "text": "¿Cuál es el idioma más hablado del mundo?",
-              "options": ["Inglés", "Mandarín", "Español", "Francés"],
-              "correct": "Mandarín",
-              "videoUrl": "https://www.youtube.com/watch?v=pRz4u1ZpB44"
-            },
-            {
-              "text": "¿Qué instrumento musical tiene teclas?",
-              "options": ["Guitarra", "Piano", "Batería", "Saxofón"],
-              "correct": "Piano",
-              "videoUrl": "https://www.youtube.com/watch?v=pRz4u1ZpB44"
-            },
-            {
-              "text": "¿Quién pintó la 'Mona Lisa'?",
-              "options": ["Vincent van Gogh", "Leonardo da Vinci", "Pablo Picasso", "Claude Monet"],
-              "correct": "Leonardo da Vinci",
-              "videoUrl": "https://www.youtube.com/watch?v=pRz4u1ZpB44"
+              "question": "¿Qué estructura se utiliza para crear una función en Python?",
+              "options": ["function nombre()", "def nombre()", "create nombre()"],
+              "answer": 1
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Programación Intermedia",
+      "description": "Desarrollo de aplicaciones web usando JavaScript y HTML.",
+      "category": "Programación",
+      "level": "Intermedio",
+      "tests": [
         {
-          "title": "Quiz de Cultura General #2",
-          "videoUrl": "https://www.youtube.com/watch?v=pRz4u1ZpB44",
+          "id": 5,
+          "title": "Test de Programación Intermedia",
           "questions": [
             {
-              "text": "¿Quién fue el primer hombre en caminar sobre la luna?",
-              "options": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "John Glenn"],
-              "correct": "Neil Armstrong",
-              "videoUrl": "https://www.youtube.com/watch?v=pRz4u1ZpB44"
+              "question": "¿Qué es el DOM?",
+              "options": ["Document Object Model", "Data Object Model", "Direct Object Model"],
+              "answer": 0
             },
             {
-              "text": "¿Cuál es la capital de España?",
-              "options": ["Madrid", "Barcelona", "Sevilla", "Valencia"],
-              "correct": "Madrid",
-              "videoUrl": "https://www.youtube.com/watch?v=pRz4u1ZpB44"
-            },
-            {
-              "text": "¿Quién es el autor de 'El Quijote'?",
-              "options": ["Miguel de Cervantes", "Lope de Vega", "Gabriel García Márquez", "Jorge Luis Borges"],
-              "correct": "Miguel de Cervantes",
-              "videoUrl": "https://www.youtube.com/watch?v=pRz4u1ZpB44"
-            },
-            {
-              "text": "¿Qué país es famoso por su canguros?",
-              "options": ["Sudáfrica", "Australia", "Canadá", "India"],
-              "correct": "Australia",
-              "videoUrl": "https://www.youtube.com/watch?v=pRz4u1ZpB44"
+              "question": "¿Qué método se usa para seleccionar un elemento por su ID en JavaScript?",
+              "options": ["getElementById()", "getElementsByClassName()", "querySelector()"],
+              "answer": 0
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Programación Avanzada",
+      "description": "Arquitectura de software y patrones de diseño.",
+      "category": "Programación",
+      "level": "Avanzado",
+      "tests": [
         {
-          "title": "Quiz de Cultura General #3",
-          "videoUrl": "https://www.youtube.com/watch?v=pRz4u1ZpB44",
+          "id": 6,
+          "title": "Test de Programación Avanzada",
           "questions": [
             {
-              "text": "¿Cuál es la obra más famosa de Shakespeare?",
-              "options": ["Hamlet", "Romeo y Julieta", "Macbeth", "El sueño de una noche de verano"],
-              "correct": "Romeo y Julieta",
-              "videoUrl": "https://www.youtube.com/watch?v=pRz4u1ZpB44"
+              "question": "¿Qué es un patrón de diseño?",
+              "options": ["Una solución reutilizable a un problema común", "Un algoritmo", "Una librería de funciones"],
+              "answer": 0
             },
             {
-              "text": "¿Quién pintó 'La noche estrellada'?",
-              "options": ["Claude Monet", "Vincent van Gogh", "Pablo Picasso", "Edvard Munch"],
-              "correct": "Vincent van Gogh",
-              "videoUrl": "https://www.youtube.com/watch?v=pRz4u1ZpB44"
+              "question": "¿Qué significa SOLID en programación orientada a objetos?",
+              "options": ["Principios de diseño de software", "Tipos de datos", "Métodos de programación"],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Cocina Básica",
+      "description": "Técnicas culinarias esenciales y recetas simples.",
+      "category": "Cocina",
+      "level": "Básico",
+      "tests": [
+        {
+          "id": 7,
+          "title": "Test de Cocina Básica",
+          "questions": [
+            {
+              "question": "¿Qué se necesita para hervir agua?",
+              "options": ["Una olla y fuego", "Un sartén", "Una licuadora"],
+              "answer": 0
             },
             {
-              "text": "¿Cuál es el país más grande del mundo?",
-              "options": ["Rusia", "Canadá", "Estados Unidos", "China"],
-              "correct": "Rusia",
-              "videoUrl": "https://www.youtube.com/watch?v=pRz4u1ZpB44"
+              "question": "¿Cuál es el principal ingrediente de la pasta?",
+              "options": ["Trigo", "Arroz", "Maíz"],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Cocina Internacional",
+      "description": "Exploración de platos y técnicas de cocina de todo el mundo.",
+      "category": "Cocina",
+      "level": "Intermedio",
+      "tests": [
+        {
+          "id": 8,
+          "title": "Test de Cocina Internacional",
+          "questions": [
+            {
+              "question": "¿Cuál es el plato nacional de Italia?",
+              "options": ["Tacos", "Pizza", "Sushi"],
+              "answer": 1
             },
             {
-              "text": "¿Qué famosa serie de televisión trata sobre la familia Simpson?",
-              "options": ["Los Simpsons", "Futurama", "Padre de familia", "American Dad"],
-              "correct": "Los Simpsons",
-              "videoUrl": "https://www.youtube.com/watch?v=pRz4u1ZpB44"
+              "question": "¿Qué especia es común en la cocina india?",
+              "options": ["Albahaca", "Curry", "Perejil"],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Cocina Avanzada",
+      "description": "Técnicas de cocina gourmet y presentación de platos.",
+      "category": "Cocina",
+      "level": "Avanzado",
+      "tests": [
+        {
+          "id": 9,
+          "title": "Test de Cocina Avanzada",
+          "questions": [
+            {
+              "question": "¿Qué es la cocina sous-vide?",
+              "options": ["Cocinar al vacío", "Cocinar al aire libre", "Cocinar con fuego directo"],
+              "answer": 0
+            },
+            {
+              "question": "¿Qué es un emulsión?",
+              "options": ["Mezcla de líquidos que normalmente no se combinan", "Un tipo de cocina", "Un ingrediente"],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Manualidades para Niños",
+      "description": "Actividades creativas y divertidas para los más pequeños.",
+      "category": "Manualidades",
+      "level": "Básico",
+      "tests": [
+        {
+          "id": 10,
+          "title": "Test de Manualidades para Niños",
+          "questions": [
+            {
+              "question": "¿Qué materiales se necesitan para hacer una manualidad?",
+              "options": ["Papel, tijeras y pegamento", "Comida", "Herramientas de jardinería"],
+              "answer": 0
+            },
+            {
+              "question": "¿Cuál es una manualidad popular para niños?",
+              "options": ["Pintura de dedos", "Cocinar", "Jugar al fútbol"],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Manualidades Intermedias",
+      "description": "Proyectos de manualidades que desarrollan habilidades avanzadas.",
+      "category": "Manualidades",
+      "level": "Intermedio",
+      "tests": [
+        {
+          "id": 11,
+          "title": "Test de Manualidades Intermedias",
+          "questions": [
+            {
+              "question": "¿Qué técnica se utiliza para crear piezas de cerámica?",
+              "options": ["Tejer", "Modelar con arcilla", "Dibujar"],
+              "answer": 1
+            },
+            {
+              "question": "¿Qué herramienta se usa comúnmente para cortar papel?",
+              "options": ["Tijeras", "Cuchillo", "Lápiz"],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Manualidades Avanzadas",
+      "description": "Técnicas complejas de manualidades, como el reciclaje creativo.",
+      "category": "Manualidades",
+      "level": "Avanzado",
+      "tests": [
+        {
+          "id": 12,
+          "title": "Test de Manualidades Avanzadas",
+          "questions": [
+            {
+              "question": "¿Qué es el reciclaje creativo?",
+              "options": ["Reutilizar materiales para crear nuevos objetos", "Deshacerse de materiales viejos", "Hacer compost"],
+              "answer": 0
+            },
+            {
+              "question": "¿Qué técnica se utiliza en el scrapbooking?",
+              "options": ["Coser", "Pegar y decorar", "Pintar"],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Dibujo Básico",
+      "description": "Fundamentos del dibujo y técnicas para principiantes.",
+      "category": "Dibujo",
+      "level": "Básico",
+      "tests": [
+        {
+          "id": 13,
+          "title": "Test de Dibujo Básico",
+          "questions": [
+            {
+              "question": "¿Qué es un boceto?",
+              "options": ["Un dibujo preliminar", "Una pintura terminada", "Una técnica de pintura"],
+              "answer": 0
+            },
+            {
+              "question": "¿Qué herramienta se utiliza comúnmente para dibujar?",
+              "options": ["Pincel", "Lápiz", "Cuchara"],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Dibujo Intermedio",
+      "description": "Desarrollo de habilidades de dibujo más complejas y técnicas mixtas.",
+      "category": "Dibujo",
+      "level": "Intermedio",
+      "tests": [
+        {
+          "id": 14,
+          "title": "Test de Dibujo Intermedio",
+          "questions": [
+            {
+              "question": "¿Qué técnica se utiliza para mezclar colores en el dibujo?",
+              "options": ["Acuarela", "Sfumato", "Dibujo a lápiz"],
+              "answer": 1
+            },
+            {
+              "question": "¿Qué es el chiaroscuro?",
+              "options": ["Técnica de luces y sombras", "Estilo de pintura", "Tipo de lápiz"],
+              "answer": 0
+            },
+            {
+              
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Dibujo Avanzado",
+      "description": "Estilos y técnicas avanzadas de dibujo.",
+      "category": "Dibujo",
+      "level": "Avanzado",
+      "tests": [
+        {
+          "id": 15,
+          "title": "Test de Dibujo Avanzado",
+          "questions": [
+            {
+              "question": "¿Qué es el dibujo digital?",
+              "options": ["Dibujo en papel", "Dibujo en una tableta", "Dibujo con tiza"],
+              "answer": 1
+            },
+            {
+              "question": "¿Qué software se utiliza comúnmente para el dibujo digital?",
+              "options": ["Photoshop", "Microsoft Word", "Excel"],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Psicología Social",
+      "description": "Estudia cómo las personas son influenciadas por la sociedad y sus interacciones.",
+      "category": "Psicología",
+      "level": "Básico",
+      "tests": [
+        {
+          "id": 16,
+          "title": "Test de Psicología Social",
+          "questions": [
+            {
+              "question": "¿Qué es la psicología social?",
+              "options": ["Estudio del comportamiento humano en sociedad", "Estudio de la biología", "Estudio de la historia"],
+              "answer": 0
+            },
+            {
+              "question": "¿Qué es la conformidad?",
+              "options": ["Cambiar el comportamiento para coincidir con otros", "Hacer algo en contra de la voluntad", "Seguir las normas estrictamente"],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Psicología del Deporte",
+      "description": "Explora cómo la psicología afecta el rendimiento deportivo.",
+      "category": "Psicología",
+      "level": "Intermedio",
+      "tests": [
+        {
+          "id": 17,
+          "title": "Test de Psicología del Deporte",
+          "questions": [
+            {
+              "question": "¿Qué influye en la motivación de un atleta?",
+              "options": ["Factores externos", "Objetivos personales", "Ambos"],
+              "answer": 2
+            },
+            {
+              "question": "¿Qué es el 'burnout' deportivo?",
+              "options": ["Una enfermedad", "Un estado de agotamiento", "Una técnica de entrenamiento"],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Ciencia de Datos",
+      "description": "Aprende sobre análisis de datos y visualización.",
+      "category": "Programación",
+      "level": "Básico",
+      "tests": [
+        {
+          "id": 18,
+          "title": "Test de Ciencia de Datos",
+          "questions": [
+            {
+              "question": "¿Qué es un 'dataset'?",
+              "options": ["Un conjunto de datos", "Un tipo de gráfico", "Una técnica de análisis"],
+              "answer": 0
+            },
+            {
+              "question": "¿Qué herramienta se usa comúnmente para la visualización de datos?",
+              "options": ["Excel", "Notepad", "Paint"],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Desarrollo Web Full Stack",
+      "description": "Domina el desarrollo de aplicaciones web desde el frontend hasta el backend.",
+      "category": "Programación",
+      "level": "Avanzado",
+      "tests": [
+        {
+          "id": 19,
+          "title": "Test de Desarrollo Web Full Stack",
+          "questions": [
+            {
+              "question": "¿Qué es el frontend?",
+              "options": ["La parte del servidor", "La parte visible del sitio web", "La base de datos"],
+              "answer": 1
+            },
+            {
+              "question": "¿Cuál es una tecnología backend común?",
+              "options": ["HTML", "CSS", "Node.js"],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Cocina Vegana",
+      "description": "Aprende a preparar deliciosos platos veganos.",
+      "category": "Cocina",
+      "level": "Básico",
+      "tests": [
+        {
+          "id": 20,
+          "title": "Test de Cocina Vegana",
+          "questions": [
+            {
+              "question": "¿Qué es una dieta vegana?",
+              "options": ["Sin productos de origen animal", "Sin carbohidratos", "Sin grasas"],
+              "answer": 0
+            },
+            {
+              "question": "¿Cuál de los siguientes es un sustituto común de la carne en la cocina vegana?",
+              "options": ["Tofu", "Carne de res", "Pollo"],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Cocina Mediterránea",
+      "description": "Explora la rica gastronomía de la región mediterránea.",
+      "category": "Cocina",
+      "level": "Intermedio",
+      "tests": [
+        {
+          "id": 21,
+          "title": "Test de Cocina Mediterránea",
+          "questions": [
+            {
+              "question": "¿Qué ingrediente es fundamental en la dieta mediterránea?",
+              "options": ["Aceite de oliva", "Mantequilla", "Fritos"],
+              "answer": 0
+            },
+            {
+              "question": "¿Qué tipo de pescado es popular en la cocina mediterránea?",
+              "options": ["Salmón", "Atún", "Bacalao"],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Manualidades con Material Reciclado",
+      "description": "Crea proyectos creativos usando materiales reciclados.",
+      "category": "Manualidades",
+      "level": "Básico",
+      "tests": [
+        {
+          "id": 22,
+          "title": "Test de Manualidades Recicladas",
+          "questions": [
+            {
+              "question": "¿Qué es el reciclaje?",
+              "options": ["Reutilizar materiales", "Botar todo en la basura", "Vender objetos"],
+              "answer": 0
+            },
+            {
+              "question": "¿Qué material se puede reciclar?",
+              "options": ["Plástico", "Comida", "Tierra"],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Dibujo de Retratos",
+      "description": "Técnicas para dibujar retratos realistas.",
+      "category": "Dibujo",
+      "level": "Avanzado",
+      "tests": [
+        {
+          "id": 23,
+          "title": "Test de Dibujo de Retratos",
+          "questions": [
+            {
+              "question": "¿Cuál es el primer paso para dibujar un retrato?",
+              "options": ["Definir la estructura", "Agregar sombras", "Dibujar el fondo"],
+              "answer": 0
+            },
+            {
+              "question": "¿Qué herramienta es útil para los detalles finos en retratos?",
+              "options": ["Marcador", "Lápiz de grafito", "Pincel ancho"],
+              "answer": 1
             }
           ]
         }
@@ -385,3 +581,6 @@
     }
   ]
 }
+
+  
+      
