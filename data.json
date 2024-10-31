@@ -1,117 +1,387 @@
 {
-    "collection": [
-      {
-        "id": "1",
-        "nombre": "Crown Sweatshirt",
-        "descripcion": "Let them know you’re 90s royalty with this official The Fresh Prince crown pattern sweater. Throw vintage vibes that Uncle Phil would approve of. Featuring woven The Fresh Prince logo on chest. Navy crown print crew neck sweatshirt with white ribbed collar and waist band. Cotton/Poly blend.",
-        "tallas": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ],
-        "precio": 80,
-        "imagen_1": "/assets/Rectangle 1.png",
-        "imagen_2": "/assets/Rectangle 2.png",
-        "imagen_3": "/assets/Rectangle 3.png",
-        "imagen_4": "/assets/Rectangle 4.png"
-      },
-      {
-        "id": "2",
-        "nombre": "Fresh Stripe Sweater",
-        "descripcion": "Let them know you’re 90s royalty with this official The Fresh Prince crown pattern sweater. Throw vintage vibes that Uncle Phil would approve of. Featuring woven The Fresh Prince logo on chest. Navy crown print crew neck sweatshirt with white ribbed collar and waist band. Cotton/Poly blend.",
-        "tallas": "S,M,L,XL",
-        "precio": 85,
-        "imagen_1": "/assets/Frame 14.png",
-        "imagen_2": "/assets/Frame 15.png",
-        "imagen_3": "/assets/Frame 16.png"
-      },
-      {
-        "id": "3",
-        "nombre": "Fresh Black Tie-Dye Hoodie",
-        "descripcion": "Let them know you’re 90s royalty with this official The Fresh Prince crown pattern sweater. Throw vintage vibes that Uncle Phil would approve of. Featuring woven The Fresh Prince logo on chest. Navy crown print crew neck sweatshirt with white ribbed collar and waist band. Cotton/Poly blend.",
-        "tallas": "S,M,L,XL",
-        "precio": 75,
-        "imagen_1": "/assets/Frame 17.png",
-        "imagen_2": "/assets/Frame 18.png",
-        "imagen_3": "/assets/Frame 19.png"
-      },
-      {
-        "id": "4",
-        "nombre": "Pose For It Tee",
-        "descripcion": "Let them know you’re 90s royalty with this official The Fresh Prince crown pattern sweater. Throw vintage vibes that Uncle Phil would approve of. Featuring woven The Fresh Prince logo on chest. Navy crown print crew neck sweatshirt with white ribbed collar and waist band. Cotton/Poly blend.",
-        "tallas": "S,M,L,XL",
-        "precio": 45,
-        "imagen_1": "/assets/Frame 20.png",
-        "imagen_2": "/assets/Frame 21.png",
-        "imagen_3": "/assets/Frame 22.png"
-      },
-      {
-        "id": "5",
-        "nombre": "Retro Fresh Prince Tee",
-        "descripcion": "Step back into the 90s with this retro-inspired Fresh Prince tee. Featuring iconic colors and graphics, it's a must-have for any fan of the show.",
-        "tallas": "S,M,L,XL",
-        "precio": 50,
-        "imagen_1": "/assets/Frame 23.png",
-        "imagen_2": "/assets/Frame 24.png",
-        "imagen_3": "/assets/Frame 25.png"
-      },
-      {
-        "id": "6",
-        "nombre": "Bel-Air Basketball Jersey",
-        "descripcion": "Rep the Bel-Air Academy with this classic basketball jersey, designed for fans of the Fresh Prince and vintage sportswear.",
-        "tallas": "S,M,L,XL",
-        "precio": 90,
-        "imagen_1": "/assets/Frame 26.png",
-        "imagen_2": "/assets/Frame 27.png",
-        "imagen_3": "/assets/Frame 28.png"
-      },
-      {
-        "id": "7",
-        "nombre": "Vintage Graffiti Hoodie",
-        "descripcion": "Show off your Fresh Prince pride with this graffiti-inspired hoodie. Perfect for a throwback look with a modern twist.",
-        "tallas": "S,M,L,XL",
-        "precio": 85,
-        "imagen_1": "/assets/Frame 29.png",
-        "imagen_2": "/assets/Frame 30.png",
-        "imagen_3": "/assets/Frame 31.png"
-      },
-      {
-        "id": "8",
-        "nombre": "Royalty Snapback Cap",
-        "descripcion": "Complete your Fresh Prince collection with this snapback cap featuring a crown emblem. Perfect for a cool, casual look.",
-        "tallas": "One Size",
-        "precio": 35,
-        "imagen_1": "/assets/Frame 32.png",
-        "imagen_2": "/assets/Frame 33.png",
-        "imagen_3": "/assets/Frame 34.png"
-      }
-    ],
-    "users": [
-      {
-        "id": 69,
-        "name": "Administrator",
-        "email": "Administrator@gmail.com",
-        "password": "12345"
-      },
-      {
-        "id": 70,
-        "name": "Administrator2",
-        "email": "Administrator2@gmail.com",
-        "password": "123456"
-      },
-      {
-        "id": 71,
-        "name": "usuario",
-        "email": "usuario@gmail.com",
-        "password": "1234567"
-      },
-      {
-        "id": 72,
-        "name": "usuario2",
-        "email": "usuario2@gmail.com",
-        "password": "12345678"
-      }
-    ]
-  }
-  
+  "tests": [
+    {
+      "id": 1,
+      "title": "Test de Ciencia",
+      "quizzes": [
+        {
+          "title": "Quiz de Ciencia #1",
+          "videoUrl": "https://www.youtube.com/watch?v=JfC1c5U4B4M",
+          "questions": [
+            {
+              "text": "¿Cuál es el planeta más cercano al sol?",
+              "options": ["Mercurio", "Venus", "Tierra", "Marte"],
+              "correct": "Mercurio",
+              "videoUrl": "https://www.youtube.com/watch?v=JfC1c5U4B4M"
+            },
+            {
+              "text": "¿Cuál es el elemento químico más abundante en el universo?",
+              "options": ["Hidrógeno", "Helio", "Oxígeno", "Carbono"],
+              "correct": "Hidrógeno",
+              "videoUrl": "https://www.youtube.com/watch?v=JfC1c5U4B4M"
+            },
+            {
+              "text": "¿Qué proceso convierte el líquido en gas?",
+              "options": ["Condensación", "Evaporación", "Sublimación", "Fusión"],
+              "correct": "Evaporación",
+              "videoUrl": "https://www.youtube.com/watch?v=JfC1c5U4B4M"
+            },
+            {
+              "text": "¿Qué es un átomo?",
+              "options": ["La unidad más pequeña de la materia", "Un tipo de molécula", "Un tipo de energía", "Un elemento químico"],
+              "correct": "La unidad más pequeña de la materia",
+              "videoUrl": "https://www.youtube.com/watch?v=JfC1c5U4B4M"
+            }
+          ]
+        },
+        {
+          "title": "Quiz de Ciencia #2",
+          "videoUrl": "https://www.youtube.com/watch?v=JfC1c5U4B4M",
+          "questions": [
+            {
+              "text": "¿Qué parte de la planta realiza la fotosíntesis?",
+              "options": ["Raíz", "Tallo", "Hoja", "Flor"],
+              "correct": "Hoja",
+              "videoUrl": "https://www.youtube.com/watch?v=JfC1c5U4B4M"
+            },
+            {
+              "text": "¿Qué tipo de animal es un delfín?",
+              "options": ["Mamífero", "Reptil", "Pájaro", "Anfibio"],
+              "correct": "Mamífero",
+              "videoUrl": "https://www.youtube.com/watch?v=JfC1c5U4B4M"
+            },
+            {
+              "text": "¿Cuál es la función del corazón?",
+              "options": ["Bombear sangre", "Respirar", "Digestión", "Regular la temperatura"],
+              "correct": "Bombear sangre",
+              "videoUrl": "https://www.youtube.com/watch?v=JfC1c5U4B4M"
+            },
+            {
+              "text": "¿Qué gas es necesario para la respiración?",
+              "options": ["Dióxido de carbono", "Oxígeno", "Nitrógeno", "Helio"],
+              "correct": "Oxígeno",
+              "videoUrl": "https://www.youtube.com/watch?v=JfC1c5U4B4M"
+            }
+          ]
+        },
+        {
+          "title": "Quiz de Ciencia #3",
+          "videoUrl": "https://www.youtube.com/watch?v=JfC1c5U4B4M",
+          "questions": [
+            {
+              "text": "¿Qué tipo de energía es la luz?",
+              "options": ["Química", "Térmica", "Eléctrica", "Radiante"],
+              "correct": "Radiante",
+              "videoUrl": "https://www.youtube.com/watch?v=JfC1c5U4B4M"
+            },
+            {
+              "text": "¿Qué es la gravedad?",
+              "options": ["Una fuerza que atrae objetos hacia el centro de la Tierra", "Un tipo de energía", "La velocidad de un objeto", "La masa de un objeto"],
+              "correct": "Una fuerza que atrae objetos hacia el centro de la Tierra",
+              "videoUrl": "https://www.youtube.com/watch?v=JfC1c5U4B4M"
+            },
+            {
+              "text": "¿Qué es el ciclo del agua?",
+              "options": ["La evaporación y condensación del agua", "La formación de ríos", "La contaminación del agua", "La limpieza del agua"],
+              "correct": "La evaporación y condensación del agua",
+              "videoUrl": "https://www.youtube.com/watch?v=JfC1c5U4B4M"
+            },
+            {
+              "text": "¿Cuál es el estado del agua en forma de vapor?",
+              "options": ["Sólido", "Líquido", "Gaseoso", "Plasma"],
+              "correct": "Gaseoso",
+              "videoUrl": "https://www.youtube.com/watch?v=JfC1c5U4B4M"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Test de Historia",
+      "quizzes": [
+        {
+          "title": "Quiz de Historia #1",
+          "videoUrl": "https://www.youtube.com/watch?v=jITmvVYkK1Q",
+          "questions": [
+            {
+              "text": "¿Quién fue el primer presidente de los Estados Unidos?",
+              "options": ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "John Adams"],
+              "correct": "George Washington",
+              "videoUrl": "https://www.youtube.com/watch?v=jITmvVYkK1Q"
+            },
+            {
+              "text": "¿En qué año comenzó la Segunda Guerra Mundial?",
+              "options": ["1939", "1941", "1945", "1914"],
+              "correct": "1939",
+              "videoUrl": "https://www.youtube.com/watch?v=jITmvVYkK1Q"
+            },
+            {
+              "text": "¿Cuál fue el imperio más grande de la historia?",
+              "options": ["Imperio Británico", "Imperio Mongol", "Imperio Romano", "Imperio Español"],
+              "correct": "Imperio Británico",
+              "videoUrl": "https://www.youtube.com/watch?v=jITmvVYkK1Q"
+            },
+            {
+              "text": "¿Qué civilización construyó las pirámides de Giza?",
+              "options": ["Los mayas", "Los romanos", "Los egipcios", "Los aztecas"],
+              "correct": "Los egipcios",
+              "videoUrl": "https://www.youtube.com/watch?v=jITmvVYkK1Q"
+            }
+          ]
+        },
+        {
+          "title": "Quiz de Historia #2",
+          "videoUrl": "https://www.youtube.com/watch?v=jITmvVYkK1Q",
+          "questions": [
+            {
+              "text": "¿Quién descubrió América?",
+              "options": ["Cristóbal Colón", "Fernando de Magallanes", "Hernán Cortés", "Francisco Pizarro"],
+              "correct": "Cristóbal Colón",
+              "videoUrl": "https://www.youtube.com/watch?v=jITmvVYkK1Q"
+            },
+            {
+              "text": "¿Cuál fue la causa de la Revolución Francesa?",
+              "options": ["Desigualdad social", "Revolución Industrial", "Expansionismo", "Colonialismo"],
+              "correct": "Desigualdad social",
+              "videoUrl": "https://www.youtube.com/watch?v=jITmvVYkK1Q"
+            },
+            {
+              "text": "¿Qué evento marcó el inicio de la Edad Media?",
+              "options": ["Caída del Imperio Romano", "Invención de la imprenta", "Descubrimiento de América", "Revolución Industrial"],
+              "correct": "Caída del Imperio Romano",
+              "videoUrl": "https://www.youtube.com/watch?v=jITmvVYkK1Q"
+            },
+            {
+              "text": "¿Quién fue el dictador de Alemania durante la Segunda Guerra Mundial?",
+              "options": ["Adolf Hitler", "Joseph Stalin", "Winston Churchill", "Franklin D. Roosevelt"],
+              "correct": "Adolf Hitler",
+              "videoUrl": "https://www.youtube.com/watch?v=jITmvVYkK1Q"
+            }
+          ]
+        },
+        {
+          "title": "Quiz de Historia #3",
+          "videoUrl": "https://www.youtube.com/watch?v=jITmvVYkK1Q",
+          "questions": [
+            {
+              "text": "¿Qué documento fue firmado en 1776 en Estados Unidos?",
+              "options": ["La Declaración de Independencia", "La Constitución", "El Tratado de París", "El Acta de Derechos"],
+              "correct": "La Declaración de Independencia",
+              "videoUrl": "https://www.youtube.com/watch?v=jITmvVYkK1Q"
+            },
+            {
+              "text": "¿En qué año cayó el Muro de Berlín?",
+              "options": ["1989", "1991", "1985", "1990"],
+              "correct": "1989",
+              "videoUrl": "https://www.youtube.com/watch?v=jITmvVYkK1Q"
+            },
+            {
+              "text": "¿Quién fue la primera mujer en volar en el espacio?",
+              "options": ["Valentina Tereshkova", "Sally Ride", "Mae Jemison", "Eileen Collins"],
+              "correct": "Valentina Tereshkova",
+              "videoUrl": "https://www.youtube.com/watch?v=jITmvVYkK1Q"
+            },
+            {
+              "text": "¿Qué país fue el primero en abolir la esclavitud?",
+              "options": ["Reino Unido", "Estados Unidos", "Francia", "Suecia"],
+              "correct": "Reino Unido",
+              "videoUrl": "https://www.youtube.com/watch?v=jITmvVYkK1Q"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Test de Geografía",
+      "quizzes": [
+        {
+          "title": "Quiz de Geografía #1",
+          "videoUrl": "https://www.youtube.com/watch?v=USiW2h1xOsE",
+          "questions": [
+            {
+              "text": "¿Cuál es el río más largo del mundo?",
+              "options": ["Amazonas", "Nilo", "Yangtsé", "Misisipi"],
+              "correct": "Amazonas",
+              "videoUrl": "https://www.youtube.com/watch?v=USiW2h1xOsE"
+            },
+            {
+              "text": "¿Cuál es la capital de Francia?",
+              "options": ["Londres", "Berlín", "Madrid", "París"],
+              "correct": "París",
+              "videoUrl": "https://www.youtube.com/watch?v=USiW2h1xOsE"
+            },
+            {
+              "text": "¿En qué continente se encuentra Egipto?",
+              "options": ["Asia", "África", "Europa", "América"],
+              "correct": "África",
+              "videoUrl": "https://www.youtube.com/watch?v=USiW2h1xOsE"
+            },
+            {
+              "text": "¿Cuál es el desierto más grande del mundo?",
+              "options": ["Sahara", "Gobi", "Kalahari", "Atacama"],
+              "correct": "Sahara",
+              "videoUrl": "https://www.youtube.com/watch?v=USiW2h1xOsE"
+            }
+          ]
+        },
+        {
+          "title": "Quiz de Geografía #2",
+          "videoUrl": "https://www.youtube.com/watch?v=USiW2h1xOsE",
+          "questions": [
+            {
+              "text": "¿Cuál es la montaña más alta del mundo?",
+              "options": ["K2", "Kangchenjunga", "Everest", "Makalu"],
+              "correct": "Everest",
+              "videoUrl": "https://www.youtube.com/watch?v=USiW2h1xOsE"
+            },
+            {
+              "text": "¿Qué océano es el más grande del mundo?",
+              "options": ["Atlántico", "Índico", "Pacífico", "Ártico"],
+              "correct": "Pacífico",
+              "videoUrl": "https://www.youtube.com/watch?v=USiW2h1xOsE"
+            },
+            {
+              "text": "¿Cuál es la capital de Japón?",
+              "options": ["Pekín", "Seúl", "Tokio", "Bangkok"],
+              "correct": "Tokio",
+              "videoUrl": "https://www.youtube.com/watch?v=USiW2h1xOsE"
+            },
+            {
+              "text": "¿En qué país se encuentra la Gran Muralla?",
+              "options": ["Japón", "Corea del Sur", "China", "Vietnam"],
+              "correct": "China",
+              "videoUrl": "https://www.youtube.com/watch?v=USiW2h1xOsE"
+            }
+          ]
+        },
+        {
+          "title": "Quiz de Geografía #3",
+          "videoUrl": "https://www.youtube.com/watch?v=USiW2h1xOsE",
+          "questions": [
+            {
+              "text": "¿Qué país tiene forma de bota?",
+              "options": ["Francia", "Italia", "España", "Grecia"],
+              "correct": "Italia",
+              "videoUrl": "https://www.youtube.com/watch?v=USiW2h1xOsE"
+            },
+            {
+              "text": "¿Cuál es el país más pequeño del mundo?",
+              "options": ["Mónaco", "Vaticano", "Nauru", "San Marino"],
+              "correct": "Vaticano",
+              "videoUrl": "https://www.youtube.com/watch?v=USiW2h1xOsE"
+            },
+            {
+              "text": "¿Qué continente es conocido como el 'continente negro'?",
+              "options": ["Asia", "África", "América", "Oceanía"],
+              "correct": "África",
+              "videoUrl": "https://www.youtube.com/watch?v=USiW2h1xOsE"
+            },
+            {
+              "text": "¿Cuál es la capital de Argentina?",
+              "options": ["Lima", "Buenos Aires", "Santiago", "Bogotá"],
+              "correct": "Buenos Aires",
+              "videoUrl": "https://www.youtube.com/watch?v=USiW2h1xOsE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Test de Cultura General",
+      "quizzes": [
+        {
+          "title": "Quiz de Cultura General #1",
+          "questions": [
+            {
+              "text": "¿Quién escribió 'Cien años de soledad'?",
+              "options": ["Gabriel García Márquez", "Julio Cortázar", "Mario Vargas Llosa", "Isabel Allende"],
+              "correct": "Gabriel García Márquez",
+              "videoUrl": "https://www.youtube.com/watch?v=pRz4u1ZpB44"
+            },
+            {
+              "text": "¿Cuál es el idioma más hablado del mundo?",
+              "options": ["Inglés", "Mandarín", "Español", "Francés"],
+              "correct": "Mandarín",
+              "videoUrl": "https://www.youtube.com/watch?v=pRz4u1ZpB44"
+            },
+            {
+              "text": "¿Qué instrumento musical tiene teclas?",
+              "options": ["Guitarra", "Piano", "Batería", "Saxofón"],
+              "correct": "Piano",
+              "videoUrl": "https://www.youtube.com/watch?v=pRz4u1ZpB44"
+            },
+            {
+              "text": "¿Quién pintó la 'Mona Lisa'?",
+              "options": ["Vincent van Gogh", "Leonardo da Vinci", "Pablo Picasso", "Claude Monet"],
+              "correct": "Leonardo da Vinci",
+              "videoUrl": "https://www.youtube.com/watch?v=pRz4u1ZpB44"
+            }
+          ]
+        },
+        {
+          "title": "Quiz de Cultura General #2",
+          "videoUrl": "https://www.youtube.com/watch?v=pRz4u1ZpB44",
+          "questions": [
+            {
+              "text": "¿Quién fue el primer hombre en caminar sobre la luna?",
+              "options": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "John Glenn"],
+              "correct": "Neil Armstrong",
+              "videoUrl": "https://www.youtube.com/watch?v=pRz4u1ZpB44"
+            },
+            {
+              "text": "¿Cuál es la capital de España?",
+              "options": ["Madrid", "Barcelona", "Sevilla", "Valencia"],
+              "correct": "Madrid",
+              "videoUrl": "https://www.youtube.com/watch?v=pRz4u1ZpB44"
+            },
+            {
+              "text": "¿Quién es el autor de 'El Quijote'?",
+              "options": ["Miguel de Cervantes", "Lope de Vega", "Gabriel García Márquez", "Jorge Luis Borges"],
+              "correct": "Miguel de Cervantes",
+              "videoUrl": "https://www.youtube.com/watch?v=pRz4u1ZpB44"
+            },
+            {
+              "text": "¿Qué país es famoso por su canguros?",
+              "options": ["Sudáfrica", "Australia", "Canadá", "India"],
+              "correct": "Australia",
+              "videoUrl": "https://www.youtube.com/watch?v=pRz4u1ZpB44"
+            }
+          ]
+        },
+        {
+          "title": "Quiz de Cultura General #3",
+          "videoUrl": "https://www.youtube.com/watch?v=pRz4u1ZpB44",
+          "questions": [
+            {
+              "text": "¿Cuál es la obra más famosa de Shakespeare?",
+              "options": ["Hamlet", "Romeo y Julieta", "Macbeth", "El sueño de una noche de verano"],
+              "correct": "Romeo y Julieta",
+              "videoUrl": "https://www.youtube.com/watch?v=pRz4u1ZpB44"
+            },
+            {
+              "text": "¿Quién pintó 'La noche estrellada'?",
+              "options": ["Claude Monet", "Vincent van Gogh", "Pablo Picasso", "Edvard Munch"],
+              "correct": "Vincent van Gogh",
+              "videoUrl": "https://www.youtube.com/watch?v=pRz4u1ZpB44"
+            },
+            {
+              "text": "¿Cuál es el país más grande del mundo?",
+              "options": ["Rusia", "Canadá", "Estados Unidos", "China"],
+              "correct": "Rusia",
+              "videoUrl": "https://www.youtube.com/watch?v=pRz4u1ZpB44"
+            },
+            {
+              "text": "¿Qué famosa serie de televisión trata sobre la familia Simpson?",
+              "options": ["Los Simpsons", "Futurama", "Padre de familia", "American Dad"],
+              "correct": "Los Simpsons",
+              "videoUrl": "https://www.youtube.com/watch?v=pRz4u1ZpB44"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
